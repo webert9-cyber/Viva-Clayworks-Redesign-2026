@@ -1,0 +1,184 @@
+
+/* TYPE STYLES */
+
+h1 {
+	font-family: "minute", sans-serif;
+	font-size: 90px;
+	color: #DACEC2; /* OFF WHITE */ /* = TITLE */
+}
+
+h2 {
+	font-family: "minute", sans-serif;
+	font-size: 48px;
+	padding-top: 50px;
+	color: #402A1D; /* DARK BROWN */ /* = SUBTITLE */
+}
+
+h3 {
+	font-family: "quicksand", sans-serif;
+	font-size: 24px;
+	font-weight: 200%; /* ADJUST */
+	color: #DACEC2; /* OFF WHITE */ /* = HEADER */
+}
+
+h4 {
+	font-family: "quicksand", sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+	letter-spacing: 3%;
+	color: #DACEC2; /* OFF WHITE */ /* = SUBHEADER */
+}
+
+body {
+	font-family: "quicksand"; sans-serif;
+	font-size: 16px;
+	line-height: 22.5px;
+	letter-spacing: 3%;
+	color: #DACEC2; /* OFF WHITE */
+}
+
+.dark-brown {
+	color: #402A1D;
+}
+
+.off-white {
+	color: #DACEC2;
+}
+
+.dark-blue {
+	color: #373E4B;
+}
+
+.text-center {
+	text-align: center;
+}
+
+
+/* IMAGE STYLES */
+
+.container-full {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+/* NAV STYLES */
+
+.nav-menu {
+	font-family: "Quicksand", sans-serif;
+	font-size: 16px;
+	color: #DACEC2;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.nav-bar {
+	/*FOR POSITIONING*/
+	list-style-type: none;
+	display: flex;
+	gap: 58px;
+}
+
+.logo {
+	font-family: "minute"; sans-serif;
+	font-size: 36px;
+	text-decoration: none; /* Why not working? */
+}
+
+
+
+/* HERO STYLES */
+
+.header-home {
+	position: absolute;
+	width: 100vw;
+}
+
+.hero {
+	background-image: url(project-three/images/hero.jpg);
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.hero-container {
+	position: relative;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+}
+
+.hero-centered {
+	position: static;
+	/*top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);*/
+}
+
+.arrow-1 {
+	position: absolute;
+	bottom: 240px;
+	right: 16px;
+}
+
+.arrow-2 {
+	position: absolute;
+	bottom: 170px;
+	right: 16px;
+}
+
+.arrow-3 {
+	position: absolute;
+	bottom: 100px;
+	right: 16px;
+}
+
+
+
+/* WHAT CATCHES YOUR EYE STYLES */
+
+.organize {
+	display: flex;
+	flex-direction: row;
+}
+
+.rectangle-1 {
+	height: 638px;
+	width: 306px;
+	background: #402A1D;
+	border-radius: 160px;
+}
+
+.rectangle-2 {
+	height: 638px;
+	width: 306px;
+	background: #373E4B;
+	border-radius: 100px;
+}
+
+.rectangle-3 {
+	height: 638px;
+	width: 306px;
+	background: #402A1D;
+	border-radius: 60px;
+}
+
+.rectangle-4 {
+	height: 638px;
+	width: 306px;
+	background: #373E4B;
+}
+
+
+
+
+
+
